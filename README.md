@@ -53,9 +53,8 @@ This project demonstrates:
 
 | Home Screen                   | Cart Screen                   | Order Summary                       |
 | ----------------------------- | ----------------------------- | ----------------------------------- |
-| ![Home](screenshots/home.png) | ![Cart](screenshots/cart.png) | ![Summary](screenshots/summary.png) |
+| ![Home](screenshots/homescreen.png) | ![Cart](screenshots/cartitems.png) | ![Summary](screenshots/orderconfirmed.png) |
 
-*(Add my screenshots inside a folder named `screenshots`.)*
 
 ---
 
