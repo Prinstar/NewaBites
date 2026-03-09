@@ -64,7 +64,7 @@ This project demonstrates:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/food-ordering-app.git
+https://github.com/Prinstar/NewaBites
 ```
 
 2. Open the project in **Android Studio**
