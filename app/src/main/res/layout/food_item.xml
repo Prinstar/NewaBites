@@ -1,0 +1,61 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    android:elevation="6dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/foodName"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/foodDescription"
+            android:textColor="#921A1313"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/foodPrice"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addToCartBtn"
+            android:text="Add to Cart"
+            android:textSize="16sp"
+            android:backgroundTint="#DE4B1C"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

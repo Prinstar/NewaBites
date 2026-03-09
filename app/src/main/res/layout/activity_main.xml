@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@android:color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="6dp"/>
+
+    <Button
+        android:id="@+id/viewCartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="View Cart"/>
+
+</LinearLayout>
